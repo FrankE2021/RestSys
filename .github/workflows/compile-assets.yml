@@ -11,7 +11,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          repository: FrankE2021/RestSys
+          token: ${{ secrets.PROJECTRESTSYSTOKEN }}
 
       - uses: actions/setup-node@v3
         with:
